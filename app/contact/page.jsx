@@ -64,7 +64,7 @@ export default function Home() {
             <div className="flex flex-col justify-between items-between h-24 text-center sm:text-left py-4">
                 <NavItem custom={2}>Benji Wallis</NavItem>
                 <NavItem href="mailto:benji@benjiwallis.xyz" custom={3}>
-                    benji@benjiwallis.xyz
+                    benji@benjiwallis.xyz{" "}
                 </NavItem>
             </div>
         </section>
