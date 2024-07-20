@@ -44,18 +44,18 @@ export default function Home() {
                 layout
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ duration: 1, delay: 1 }}
+                transition={{ duration: 1, delay: 0.5 }}
             >
                 <Logo />
             </motion.div>
             <div className="flex flex-col justify-between items-between h-32 sm:h-24 text-center sm:text-left">
-                <NavItem href="/experienceprojects" custom={5}>
+                <NavItem href="/experienceprojects" custom={1}>
                     Experience & Projects
                 </NavItem>
-                <NavItem href="/servicesproducts" custom={6}>
+                <NavItem href="/servicesproducts" custom={2}>
                     Services & Products
                 </NavItem>
-                <NavItem href="/contact" custom={7}>
+                <NavItem href="/contact" custom={3}>
                     Contact
                 </NavItem>
             </div>
