@@ -11,11 +11,11 @@ export function Logo() {
                 x="50%"
                 y="50%"
                 fill="#131722"
-                font-size="55"
-                font-weight="bold"
-                text-anchor="middle"
-                dominant-baseline="central"
-                font-family="inter"
+                fontSize="55"
+                fontWeight="bold"
+                textAnchor="middle"
+                dominantBaseline="central"
+                fontFamily="inter"
             >
                 B
             </text>
