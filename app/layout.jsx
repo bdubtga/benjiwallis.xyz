@@ -28,16 +28,11 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en" suppressHydrationWarning>
             <head />
-            <style>
-                @import
-                url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-            </style>
             <body
                 className={clsx(
-                    "min-h-screen bg-background antialiased",
+                    "min-h-screen bg-background font-sans antialiased",
                     fontSans.variable
                 )}
-                style={{ fontfamily: "Inter" }}
             >
                 <Providers
                     themeProps={{ attribute: "class", defaultTheme: "dark" }}
